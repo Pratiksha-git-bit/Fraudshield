@@ -34,6 +34,7 @@ persona called **Riya**.
 - 📊 **SHAP Explainability** — understand *why* a transaction is flagged
 - 💬 **Natural Language Interface** via LangChain RAG + Riya (AI Analyst)
 - 🖥️ **Streamlit UI** — interactive dashboard for fraud analysts
+- ✅ **LangGraph Multi-Agent System**- 4 agents (Document Verification , Risk Scoring , Compliance , Case Notes) with human-in-the-loop escalation
 
 ---
 
@@ -47,6 +48,7 @@ persona called **Riya**.
 | UI | Streamlit |
 | Language | Python |
 | Dataset | Kaggle Credit Card Fraud (284,807 transactions) |
+|Multi-Agent | LangGraph
 
 ---
 
@@ -74,3 +76,5 @@ FraudShield/
 ├── faiss_index/                 # RAG vector store
 ├── best_threshold.txt           # Optimal classification threshold
 └── README.md
+├── fraudshield_langgraph.ipynb  # LangGraph Multi-Agent Pipeline
+
