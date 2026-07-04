@@ -23,7 +23,8 @@ ecosystem. It uses XGBoost to detect fraudulent transactions with 87%
 recall, SHAP for explainability, and a LangChain RAG layer that lets
 fraud analysts ask natural language questions like
 *"Why was this transaction flagged?"* — powered by an AI analyst
-persona called **Riya**.
+persona called **Riya**. 
+Beyond detection, FraudShield orchestrates a LangGraph-powered multi-agent pipeline — Document Verification, Risk Scoring, Compliance, and Case Notes agents that work in sequence to review each transaction end-to-end, with human-in-the-loop escalation for high-risk cases. This moves the system beyond a single prediction into a full agentic decision workflow: verifying documents, scoring risk using the XGBoost model, checking compliance rules, and generating an audit-ready case report, automatically routing uncertain cases to a human analyst.
 
 ---
 
