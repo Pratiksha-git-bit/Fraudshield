@@ -1,0 +1,20 @@
+[
+  {
+    "run_at": "2026-09-13T12:42:25+00:00",
+    "model_version": "v2.0.0",
+    "prediction_psi": 0.0006,
+    "n_severe": 0,
+    "severe": false,
+    "simulated": false,
+    "action": "NONE"
+  },
+  {
+    "run_at": "2026-09-13T12:43:06+00:00",
+    "model_version": "v2.0.0",
+    "prediction_psi": 0.56,
+    "n_severe": 3,
+    "severe": true,
+    "simulated": true,
+    "action": "INVESTIGATE"
+  }
+]

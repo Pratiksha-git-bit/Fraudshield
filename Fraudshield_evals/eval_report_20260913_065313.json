@@ -1,0 +1,9 @@
+{
+  "run_at": "20260913_065313",
+  "model_version": "v2.0.0",
+  "case_notes_prompt": "case_notes.v1",
+  "judge_prompt": "llm_judge.v1",
+  "deterministic": {},
+  "coverage_notes": [],
+  "n_failures": 0
+}
