@@ -1,1 +1,15 @@
+# secrets - never upload
+.env
+
+# dataset - too large for GitHub
 creditcard.csv
+
+# generated files - rebuilt by running the scripts
+artifacts/
+mlruns/
+faiss_index*/
+*.pkl
+best_threshold.txt
+__pycache__/
+.ipynb_checkpoints/
+Fraudshield_evals/*.json
