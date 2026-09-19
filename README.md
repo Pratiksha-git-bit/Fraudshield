@@ -19,7 +19,7 @@ transactions naturally — not just receive a binary yes/no alert.
 ## 🛡️ What FraudShield Does
 
 FraudShield is an AI-powered fraud detection system built for the fintech
-ecosystem. It uses XGBoost to detect fraudulent transactions with 87%
+ecosystem. It uses XGBoost to detect fraudulent transactions with 89%
 recall, SHAP for explainability, and a LangChain RAG layer that lets
 fraud analysts ask natural language questions like
 *"Why was this transaction flagged?"* — powered by an AI analyst
@@ -31,7 +31,7 @@ Beyond detection, FraudShield orchestrates a LangGraph-powered multi-agent pipel
 ## ✨ Key Features
 
 - 🔍 **Real-time fraud detection** on credit card transactions
-- 🤖 **XGBoost ML model** — 87% recall, optimized threshold at 0.7
+- 🤖 **XGBoost ML model** — 89% recall, optimized threshold at 0.7
 - 📊 **SHAP Explainability** — understand *why* a transaction is flagged
 - 💬 **Natural Language Interface** via LangChain RAG + Riya (AI Analyst)
 - 🖥️ **Streamlit UI** — interactive dashboard for fraud analysts
