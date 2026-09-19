@@ -13,3 +13,5 @@ best_threshold.txt
 __pycache__/
 .ipynb_checkpoints/
 Fraudshield_evals/*.json
+*.zip
+New folder*/
