@@ -19,21 +19,23 @@ transactions naturally — not just receive a binary yes/no alert.
 ## 🛡️ What FraudShield Does
 
 FraudShield is an AI-powered fraud detection system built for the fintech
-ecosystem. It uses XGBoost to detect fraudulent transactions with 87%
+ecosystem. It uses XGBoost to detect fraudulent transactions with 89%
 recall, SHAP for explainability, and a LangChain RAG layer that lets
 fraud analysts ask natural language questions like
 *"Why was this transaction flagged?"* — powered by an AI analyst
-persona called **Riya**.
+persona called **Riya**. 
+Beyond detection, FraudShield orchestrates a LangGraph-powered multi-agent pipeline — Document Verification, Risk Scoring, Compliance, and Case Notes agents that work in sequence to review each transaction end-to-end, with human-in-the-loop escalation for high-risk cases. This moves the system beyond a single prediction into a full agentic decision workflow: verifying documents, scoring risk using the XGBoost model, checking compliance rules, and generating an audit-ready case report, automatically routing uncertain cases to a human analyst.
 
 ---
 
 ## ✨ Key Features
 
 - 🔍 **Real-time fraud detection** on credit card transactions
-- 🤖 **XGBoost ML model** — 87% recall, optimized threshold at 0.7
+- 🤖 **XGBoost ML model** — 89% recall, optimized threshold at 0.7
 - 📊 **SHAP Explainability** — understand *why* a transaction is flagged
 - 💬 **Natural Language Interface** via LangChain RAG + Riya (AI Analyst)
 - 🖥️ **Streamlit UI** — interactive dashboard for fraud analysts
+- ✅ **LangGraph Multi-Agent System**- 4 agents (Document Verification , Risk Scoring , Compliance , Case Notes) with human-in-the-loop escalation
 
 ---
 
@@ -47,6 +49,7 @@ persona called **Riya**.
 | UI | Streamlit |
 | Language | Python |
 | Dataset | Kaggle Credit Card Fraud (284,807 transactions) |
+|Multi-Agent | LangGraph
 
 ---
 
@@ -74,3 +77,5 @@ FraudShield/
 ├── faiss_index/                 # RAG vector store
 ├── best_threshold.txt           # Optimal classification threshold
 └── README.md
+├── fraudshield_langgraph.ipynb  # LangGraph Multi-Agent Pipeline
+
